@@ -21,6 +21,6 @@ describe('getEvenNumbersFromArray', () => {
     const arrayOfValues = [2, 4, 66, 7, '89'];
     expect(() => {
       validator.getEvenNumbersFromArray(arrayOfValues);
-    }).to.throw('[2, 4, 66, 7, 89] is not an array of "Numbers"');
+    }).to.throw('[2,4,66,7,89] is not an array of "Numbers"');
   });
 });
